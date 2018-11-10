@@ -2,4 +2,28 @@
 
 ![led_mux module](led_mux.png){width=40%}
 
-Exercitationem suscipit excepturi molestiae tempore et enim. Ratione ut aut vitae quos. Quos nesciunt aut blanditiis repellendus quia omnis quo sunt. Fuga libero reprehenderit veritatis quia est ipsa aliquid. Autem voluptate nihil voluptatem natus officia sed. Qui itaque nam asperiores iure deleniti totam aut autem.
+<!--- Module decription goes here --->
+
+### Interface Definitions ###
+<!--- Interface stuff --->
+
+### Module functionality ###
+<!--- Nitty gritty module functionality stuff --->
+
+### Parameters, Inputs and Outputs Descriptions ###
+<!--- Nitty gritty module functionality stuff --->
+
+#### Parameters ####
+
+Parameter Name | Default Value | Description
+--------------------- | ----------------------------- | -------------------------------------------------------------------------------------------
+
+#### Inputs ####
+
+Signal Name | Width | Signal Description
+--------------------- | ----------------------------- | -------------------------------------------------------------------------------------------
+
+#### Outputs ####
+
+Signal Name | Width | Signal Description
+--------------------- | ----------------------------- | -------------------------------------------------------------------------------------------
