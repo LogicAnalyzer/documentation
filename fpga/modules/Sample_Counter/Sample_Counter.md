@@ -1,8 +1,8 @@
-## Sampler_Counter ##
+## Sample_Counter ##
 
-![Sampler_Counter module](Sampler_Counter.png){width=40%}
+![Sample_Counter module](Sample_Counter.png){width=40%}
 
-<!--- Module decription goes here --->
+<!--- Module description goes here --->
 
 ### Interface Definitions ###
 <!--- Interface stuff --->

@@ -2,7 +2,7 @@
 
 ![mux_8 module](mux_8.png){width=20%}
 
-<!--- Module decription goes here --->
+<!--- Module description goes here --->
 
 ### Interface Definitions ###
 <!--- Interface stuff --->

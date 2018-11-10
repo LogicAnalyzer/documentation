@@ -2,7 +2,7 @@
 
 ![command_decoder](command_decoder.png){width=40%}
 
-<!--- Module decription goes here --->
+<!--- Module description goes here --->
 
 ### Interface Definitions ###
 <!--- Interface stuff --->

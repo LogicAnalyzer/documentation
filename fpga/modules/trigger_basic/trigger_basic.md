@@ -2,7 +2,7 @@
 
 ![trigger_basic module](trigger_basic.png){width=40%}
 
-<!--- Module decription goes here --->
+<!--- Module description goes here --->
 
 ### Interface Definitions ###
 <!--- Interface stuff --->

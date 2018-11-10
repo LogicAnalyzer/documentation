@@ -2,7 +2,7 @@
 
 ![clk_gen module](clk_gen.png){width=40%}
 
-<!--- Module decription goes here --->
+<!--- Module description goes here --->
 
 ### Interface Definitions ###
 <!--- Interface stuff --->

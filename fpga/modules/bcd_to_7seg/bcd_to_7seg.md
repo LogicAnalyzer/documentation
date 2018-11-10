@@ -2,7 +2,7 @@
 
 ![bcd_to_7seg module](bcd_to_7seg.png){width=40%}
 
-<!--- Module decription goes here --->
+<!--- Module description goes here --->
 
 ### Interface Definitions ###
 <!--- Interface stuff --->
