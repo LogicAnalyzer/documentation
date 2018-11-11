@@ -1,2 +1,3 @@
-ST|state Name|opcode_rdy|opcode[7:0]|meta_busy|tx_busy|full|empty|data_valid|Run|read_match|delay_match|reg_out||NS|Next Name||data_meta_mux|begin_meta_transmit|send_id|tx_busy|en|rnw|clear|hold_window|edge_capture|arm|en_cnt|clr_cnt|wr_en|reg_sel|
-0|IDLE|0|XXXXXXXX|X|X|X|X|X|X|X|X|X||0|IDLE||0|0|0|0|0|0|0|0|0|0|0|0|0|0|
+|ST|state Name|opcode_rdy|opcode[7:0]|meta_busy|tx_busy|full|empty|data_valid|Run|read_match|delay_match|reg_out||NS|Next Name||data_meta_mux|begin_meta_transmit|send_id|tx_busy|en|rnw|clear|hold_window|edge_capture|arm|en_cnt|clr_cnt|wr_en|reg_sel|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|0|IDLE|0|XXXXXXXX|X|X|X|X|X|X|X|X|X||0|IDLE||0|0|0|0|0|0|0|0|0|0|0|0|0|0|
