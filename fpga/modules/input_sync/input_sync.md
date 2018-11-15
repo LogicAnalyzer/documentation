@@ -4,9 +4,6 @@
 
 This simple module handles the raw data stream from users DUT. Currently it handles sampling at full clock data rate with a trigger on either the either the positive or negative edge of the clock.
 
-
-### Interface Definitions ###
-
 ### Module functionality ###
 The Input Synch module serves as a front door to the users DUT input. This is the first module to see the data as it comes in. This module will run at the full system clock to sample the incoming data. The module will recieve signal from the controller to choose positive edge or negative edge sampling.
 
