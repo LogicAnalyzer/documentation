@@ -7,9 +7,10 @@ The `sampler` module controls the sampling rate of the device using an internal 
 ### Module functionality ###
 In order to scale down the sampling rate of the device, a signal must placed onto `divider` and loaded using the `load_counter` enable to store the value into the sampler's registers. The relation between the sampling rate and the divider follows the given equation:
 
-divider = (clock / sample-rate) - 1 
+$$divider = \frac{clock}{sample-rate} - 1$$ 
 
 This is enforced using an internal counter, counting the number of clock cycles since the last valid sample. A sample is "valid" if it meets the sampling rate conditions. For example, to sample at 100KHz, the divider will need to be set to 999, as there will be 999 clock ticks between two valid samples.
+
 #### Inputs ####
 
 Signal Name | Width | Signal Description
