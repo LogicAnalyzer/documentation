@@ -14,7 +14,7 @@ This module is simply a wrapper module for UART communication. In order to send 
 
 Parameter Name | Default Value | Description
 --------------------- | ----------------------------- | -------------------------------------------------------------------------------------------
-INPUT_CLK_KHZ |100_000| Input clock rate in Khz
+INPUT_CLK_KHZ |100_000| Input clock rate in KHz
 BAUD_RATE |9600| Baud rate for transmission
 #### Inputs ####
 

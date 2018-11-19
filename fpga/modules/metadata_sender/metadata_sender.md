@@ -18,7 +18,7 @@ Response Code | Data
 
 If `send_id` is asserted, it will send only the four byte product ID.
 
-When the module has finished transmitting the sequence of bytes, it will de-assert `meta_busy` alerting the control unit the transmission resource is now available.
+When the module has finished transmitting the sequence of bytes, it will deassert `meta_busy` alerting the control unit the transmission resource is now available.
 
 #### Inputs ####
 

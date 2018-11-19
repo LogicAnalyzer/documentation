@@ -6,7 +6,7 @@ The sample FIFO is used to store the data sampled from the users device. This mo
 
 ### Module functionality ###
 <!--- Nitty gritty module functionality stuff --->
-This FIFO is designed with functionality specific to sampling the users device. Read's and write's cannot be performed simultaneously and instead rely on a read not write (rnw) signal to choose. In order to do a read or write the rnw signal must be set appropriately and en asserted on the rising edge of the clock. For writes the data on data_in must be valid by the rising edge when en is asserted and rnw is deasserted. For reads the data will be on the data_out bus the clock after en and rnw are asserted on a rising edge. The data_valid signal will be asserted along with the data on the data_out bus.
+This FIFO is designed with functionality specific to sampling the users device. Reads and writes cannot be performed simultaneously and instead rely on a read not write (rnw) signal to choose. In order to do a read or write the rnw signal must be set appropriately and en asserted on the rising edge of the clock. For writes the data on data_in must be valid by the rising edge when en is asserted and rnw is deasserted. For reads the data will be on the data_out bus the clock after en and rnw are asserted on a rising edge. The data_valid signal will be asserted along with the data on the data_out bus.
 ### Parameters, Inputs and Outputs Descriptions ###
 <!--- Nitty gritty module functionality stuff --->
 

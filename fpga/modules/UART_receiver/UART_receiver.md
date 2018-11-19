@@ -6,7 +6,7 @@ Receive module for UART
 
 ### Module functionality ###
 
-This module receives serialized bytes and collects them into a single byte. The received trasmission is expected to follow the UART protocol.
+This module receives serialized bytes and collects them into a single byte. The received transmission is expected to follow the UART protocol.
 
 ### Parameters, Inputs and Outputs Descriptions ###
 <!--- Nitty gritty module functionality stuff --->

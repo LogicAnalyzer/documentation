@@ -2,7 +2,7 @@
 
 ![single_trigger module](single_trigger.png){width=40%}
 
-For each channel in the `trigger_basic`, one `single_trigger` is created. The module consits of a single flip-flop which is used to compare a high or low signal from a previous cycle in a way defined by the basic trigger.
+For each channel in the `trigger_basic`, one `single_trigger` is created. The module consists of a single flip-flop which is used to compare a high or low signal from a previous cycle in a way defined by the basic trigger.
 
 ### Module functionality ###
 When the arm signal is asserted, the module sets its flip-flop to zero if it is to trigger on rising or falling. If the channel is not a trigger condition, it will be set to 1.
