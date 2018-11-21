@@ -15,15 +15,15 @@ This is enforced using an internal counter, counting the number of clock cycles 
 
 Signal Name | Width | Signal Description
 --------------------- | ----------------------------- | -------------------------------------------------------------------------------------------
-    clock | 1 | System Clock
-    load_counter | 1 | Load enable to store `divider` into internal register  
-    dataIn | SAMPLE_WIDTH | Data being sampled.
-    divider | 24 | Number of rising edges on `clock` before a valid is asserted
+clock | 1 | System Clock
+load_counter | 1 | Load enable to store `divider` into internal register  
+dataIn | SAMPLE_WIDTH | Data being sampled.
+divider | 24 | Number of rising edges on `clock` before a valid is asserted
 
 
 #### Outputs ####
 
 Signal Name | Width | Signal Description
 --------------------- | ----------------------------- | -------------------------------------------------------------------------------------------
-     dataOut | SAMPLE_WIDTH | Sample data output, sent to the FIFO for storage
-     validOut | 1 | Asserted when `dataOut` is a valid sample
+dataOut | SAMPLE_WIDTH | Sample data output, sent to the FIFO for storage
+validOut | 1 | Asserted when `dataOut` is a valid sample
