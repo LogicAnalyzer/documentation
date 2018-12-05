@@ -7,14 +7,15 @@ The metadata_sender is a module responsible for communicating fixed strings of m
 ### Module functionality ###
 When `begin_meta_transmit` is asserted by the control unit, the unit places bytes of requested metadata onto the `transmit_byte` wire. It waits until `tx_busy` is not asserted, then it asserts its `tran_data` signal to send the next byte. 
 The ordering of the metadata follows the standards laid out by sigrok, which is as follows:
-Response Code | Data
---------------|------------------------------------------------
-0x01 | Device Name String
-0x02 | FPGA Firmware Version
-0x21 | Amount of sample memory available on the device
-0x23 | Maximum sample rate
-0x40 | Maximum number of probes
-0x41 | Sigrok Protocol Version
+
+| Response Code | Data |
+| -------------- | ------------------------------------------------ |
+|0x01 | Device Name String
+| 0x02 | FPGA Firmware Version |
+| 0x21 | Amount of sample memory available on the device |
+| 0x23 | Maximum sample rate |
+| 0x40 | Maximum number of probes |
+| 0x41 | Sigrok Protocol Version |
 
 If `send_id` is asserted, it will send only the four byte product ID.
 
