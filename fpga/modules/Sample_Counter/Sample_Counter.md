@@ -7,6 +7,7 @@ Counter module with pre-trigger count register and total sample count register. 
 ### Module functionality ###
 This module is used to keep track of total samples in sample fifo. When the pre-trigger count is a met a flag is asserted. When the count meets the max samples then a flag is asserted.
 
+
 ### Parameters, Inputs and Outputs Descriptions ###
 <!--- Nitty gritty module functionality stuff --->
 
